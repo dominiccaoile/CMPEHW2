@@ -1,0 +1,12 @@
+1. Does the change inside increment_int_a change the variable a after the function call?
+increment_int_a does not change the variable a after the function call.
+2. Does the change inside increment_int_b change the variable b after the function call?
+increment_int_b does change the variable b after the function call.
+3. If they differ answer why? if not why not?
+They produce different outputs because in increment_int_a, we are passing by value. 
+In increment_int_b, we are passing by reference.
+In python, objects are passed by reference such as arrays, lists, and dictionaries.
+The reference is pointing at a specific element and refering to that location.
+If we wanted to increment a, we would have to set 'a' equal to our 'increment_int_a function'. 
+
+
