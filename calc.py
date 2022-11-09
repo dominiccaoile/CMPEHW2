@@ -34,7 +34,7 @@ def calculator(calc):
     
     x = Solution()
     output = x.calculate(calc)
-    return print(output)
+    return output;
 
 
 
