@@ -5,7 +5,7 @@ def swap_list(somelist):
         print('Even')  
         pos1 = int(len(somelist)/2-1)
         pos2 = int(len(somelist)-1)
-        print(pos1,pos2)
+        #print(pos1,pos2)
         somelist[pos1], somelist[pos2] = somelist[pos2], somelist[pos1]
         
     #odd
@@ -13,12 +13,12 @@ def swap_list(somelist):
         print('Odd')
         pos1 = int(len(somelist)/2-0.5)
         pos2 = int(len(somelist)-1)
-        print(pos1,pos2)
+        #print(pos1,pos2)
         somelist[pos1], somelist[pos2] = somelist[pos2], somelist[pos1]
         
 
         
-    return;
+    return somelist;
 
 
 #evenlist = [0,'hi',2,True]
